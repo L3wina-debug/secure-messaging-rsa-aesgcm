@@ -1,0 +1,27 @@
+# python -m unittest -v test_projet_rsa.py
+# 2026-10-09 · Python 3.13.16 · cryptography 50.0.1 · Linux
+test_cli_failure_writes_no_plaintext_and_bad_syntax_returns_2 (test_projet_rsa.CliTests.test_cli_failure_writes_no_plaintext_and_bad_syntax_returns_2) ... ok
+test_cli_full_signed_exchange (test_projet_rsa.CliTests.test_cli_full_signed_exchange) ... ok
+test_altered_ciphertext_rejected (test_projet_rsa.CryptoTests.test_altered_ciphertext_rejected) ... ok
+test_altered_gcm_tag_rejected_on_unsigned_envelope (test_projet_rsa.CryptoTests.test_altered_gcm_tag_rejected_on_unsigned_envelope) ... ok
+test_altered_signature_rejected (test_projet_rsa.CryptoTests.test_altered_signature_rejected) ... ok
+test_duplicate_json_keys_rejected (test_projet_rsa.CryptoTests.test_duplicate_json_keys_rejected) ... ok
+test_extra_or_missing_field_rejected (test_projet_rsa.CryptoTests.test_extra_or_missing_field_rejected) ... ok
+test_hybrid_one_mebibyte_binary (test_projet_rsa.CryptoTests.test_hybrid_one_mebibyte_binary) ... ok
+test_hybrid_refuses_more_than_8_mib (test_projet_rsa.CryptoTests.test_hybrid_refuses_more_than_8_mib) ... ok
+test_invalid_base64_rejected (test_projet_rsa.CryptoTests.test_invalid_base64_rejected) ... ok
+test_oaep_limit_2048_accepts_190_bytes (test_projet_rsa.CryptoTests.test_oaep_limit_2048_accepts_190_bytes) ... ok
+test_oaep_limit_2048_refuses_191_bytes (test_projet_rsa.CryptoTests.test_oaep_limit_2048_refuses_191_bytes) ... ok
+test_oaep_limit_3072_accepts_318_refuses_319 (test_projet_rsa.CryptoTests.test_oaep_limit_3072_accepts_318_refuses_319) ... ok
+test_rsa_unicode_roundtrip (test_projet_rsa.CryptoTests.test_rsa_unicode_roundtrip) ... ok
+test_sender_key_substitution_rejected (test_projet_rsa.CryptoTests.test_sender_key_substitution_rejected) ... ok
+test_unknown_mode_and_version_rejected (test_projet_rsa.CryptoTests.test_unknown_mode_and_version_rejected) ... ok
+test_unsigned_refused_by_default (test_projet_rsa.CryptoTests.test_unsigned_refused_by_default) ... ok
+test_wrong_recipient_rejected (test_projet_rsa.CryptoTests.test_wrong_recipient_rejected) ... ok
+test_existing_key_files_are_not_replaced (test_projet_rsa.KeyStorageTests.test_existing_key_files_are_not_replaced) ... ok
+test_protected_pem_needs_the_right_password (test_projet_rsa.KeyStorageTests.test_protected_pem_needs_the_right_password) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.954s
+
+OK

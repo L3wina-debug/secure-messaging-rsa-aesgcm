@@ -1,0 +1,10 @@
+# python projet_rsa.py demo --bits 3072
+== Demo with 3072-bit RSA keys ==
+[keys] alice: saved and reloaded, fingerprint 9b315101d8ee2dd7...
+[keys] bob: saved and reloaded, fingerprint 43a265023569f157...
+[rsa] Alice -> Bob: 37 bytes (limit 318), signature OK
+[hybrid] Bob -> Alice: 520 bytes, signature OK
+[hybrid] Alice -> Bob: 64000-byte content, received bytes identical
+[tamper] modified envelope rejected: invalid signature: envelope rejected before decryption
+Demo finished: all checks passed.
+exit code: 0

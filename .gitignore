@@ -1,0 +1,21 @@
+# Never commit keys, envelopes or decrypted output
+keys/
+*.pem
+*.json
+!.github/**/*.json
+*.dec
+*.txt
+!requirements.txt
+!preuves/*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
